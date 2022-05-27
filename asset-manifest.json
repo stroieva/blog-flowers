@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/blog-flowers/static/css/main.961b171e.css",
+    "main.js": "/blog-flowers/static/js/main.4baf1698.js",
+    "static/media/slider-1.png": "/blog-flowers/static/media/slider-1.e757a5b79df990927569.png",
+    "static/media/slider-4.jpg": "/blog-flowers/static/media/slider-4.43eb2d11eb2ba6ee9e95.jpg",
+    "static/media/slider-3.jpg": "/blog-flowers/static/media/slider-3.8e745526e72019e2d1ca.jpg",
+    "static/media/slider-2.jpg": "/blog-flowers/static/media/slider-2.972bc7a17ad51d5b56c0.jpg",
+    "static/media/image-1.jpg": "/blog-flowers/static/media/image-1.3d7fb35df436870e9a02.jpg",
+    "static/media/image-4.jpg": "/blog-flowers/static/media/image-4.04ab494e29ae8b592de7.jpg",
+    "static/media/image-6.jpg": "/blog-flowers/static/media/image-6.f208d603ac06b28d9c06.jpg",
+    "static/media/image-2.jpg": "/blog-flowers/static/media/image-2.81712b78a2b0ab578237.jpg",
+    "static/media/image-3.jpg": "/blog-flowers/static/media/image-3.e28dc5a8ae1ba8ce2fb9.jpg",
+    "static/media/image-5.jpg": "/blog-flowers/static/media/image-5.f88e44b658dd6cb752c9.jpg",
+    "static/media/slick.svg": "/blog-flowers/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/blog-flowers/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/blog-flowers/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/blog-flowers/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/blog-flowers/index.html",
+    "main.961b171e.css.map": "/blog-flowers/static/css/main.961b171e.css.map",
+    "main.4baf1698.js.map": "/blog-flowers/static/js/main.4baf1698.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.961b171e.css",
+    "static/js/main.4baf1698.js"
+  ]
+}
