@@ -1,0 +1,24 @@
+.social * {
+    fill: rgba(216, 80, 250, 0.3);
+    padding: 0 30px;
+}
+
+.social:hover * {
+    fill: rgba(160, 93, 177, 0.753);
+    transition: 0.5s ease-in;
+}
+
+
+/* laptop - md */
+@media (min-width: 992px) {
+    .social-media {
+        display: flex !important;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 991px) {
+    .social-media {
+        display: none !important;
+    }
+}

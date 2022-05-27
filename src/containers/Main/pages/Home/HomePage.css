@@ -1,0 +1,33 @@
+.title {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+    /* color: #ca1313; */
+    color: #b30a0a;
+    margin: 30px 0;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-button button {
+    background-color: white;
+    border: 1px solid #8b1381;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    color: #8b1381;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.nav-button button:hover {
+    cursor: pointer;
+    background-color: rgb(252, 150, 252);
+    color: white;
+}

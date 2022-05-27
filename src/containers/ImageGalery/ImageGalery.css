@@ -1,0 +1,34 @@
+.image-galery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.image-galery img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.image-galery img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.9s ease-in;
+    border-radius: 20px;
+}
+
+/* laptop - md */
+@media (min-width: 992px) {
+    .image-galery img {
+        max-width: 30%;
+    }
+}
+
+/* only mobile - xs */
+@media (max-width: 767px) {
+    .image-galery img {
+        max-width: 100%;
+        vertical-align: super;
+    }
+}

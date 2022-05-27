@@ -1,0 +1,201 @@
+.article {
+    border: 1px solid rgb(185, 184, 184);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(114, 113, 113, 0.4);
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.category-favorit {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.category-favorit a::first-letter {
+    text-transform: uppercase;
+}
+
+.category-favorit a {
+    text-decoration: none;
+    color: #9c8b84;
+    font-style: italic;
+    padding: 3px;
+    background-color: #853232;
+    color: #fff;
+}
+
+.category-favorit a:hover {
+    background-color: #9a5757;
+    color: #fff;
+}
+
+.like-icon {
+    border: none;
+    background-color: transparent;
+}
+
+.like-icon:hover {
+    cursor: pointer;
+}
+
+.aticle-title a {
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(203, 21, 21);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.6s;
+}
+
+.aticle-title a:hover {
+    color: rgb(152, 60, 60);
+}
+
+.article-text {
+    text-align: justify;
+}
+
+.article-image {
+    overflow: hidden;
+}
+
+.article-image img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    transition: 1.5s;
+}
+
+.article-image img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.read-more {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.read-more a {
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: #ac7d7d;
+    background-color: #eacabd;
+}
+
+.read-more a:hover {
+    color: #fff;
+}
+
+.favorite-icon {
+    color: rgb(244, 44, 140);
+}
+
+.favorite-border-icon {
+    color: rgb(244, 44, 140);
+}
+
+.title-article {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #7d1616;
+    font-weight: 700;
+}
+
+.title-flower-home {
+    font-size: 20px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: #065f24;
+    font-weight: 700;
+}
+
+.article-text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.article-text p {
+    margin: 16px 0;
+}
+
+.rose-image-1 {
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+
+.flower-image {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flower-image img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.8s;
+}
+
+.subtitle-article {
+    color: #763572;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+.subtitle-color-1 {
+    color: rgb(86, 86, 20);
+}
+
+.subtitle-color-2 {
+    color: #f144ae;
+}
+
+.subtitle-color-3 {
+    color: red;
+}
+
+.subtitle-color-4 {
+    color: blue;
+}
+
+.subtitle-color-5 {
+    color: rgb(249, 137, 81);
+}
+
+.subtitle-color-6 {
+    color: rgb(106, 1, 129);
+}
+
+.list li {
+    list-style-type: square;
+    margin: 10px 0 20px 30px;
+}
+
+.text-bold {
+    font-weight: bold;
+}

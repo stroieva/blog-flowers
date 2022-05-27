@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* header-menu */
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 20px 0;
+    background-color: rgb(255, 220, 247);
+}
+
+.logo a {
+    color: rgb(194, 35, 35);
+    text-decoration: none;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.header-menu {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    display: block;
+    position: relative;
+}
+
+.menu li a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+    color: #fd5a5a;
+    padding: 2px 15px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+}
+
+.menu li:hover .submenu {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+}
+
+.submenu li {
+    width: 130px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.submenu li a {
+    border: none;
+}
+
+.submenu li a:hover {
+    border: none;
+    color: rgb(194, 35, 35);
+    transition: 0.2s ease-in;
+}
+
+.menu > li:hover > a {
+    color: rgb(194, 35, 35);
+    transition: 0.3s ease-in;
+}
+
+.page-favorite a {
+    color: rgb(123, 6, 6) !important;
+}
+
+.favorite-count {
+    border: 1px solid rgb(123, 6, 6);
+    border-radius: 50px;
+    max-height: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+    padding: 0 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .categories-item-desktop {
+    display: none !important;
+} */
+
+/* laptop - md */
+@media (min-width: 992px) {
+    .header-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-item:hover .submenu-list {
+        display: block;
+    }
+    .categories-list-desktop {
+        display: block !important;
+    }
+    .categories-list-mobile {
+        display: none !important;
+    }
+}
+
+/* only mobile - xs */
+@media (max-width: 991px) {
+    .header-menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .categories-list-desktop {
+        display: none !important;
+    }
+
+    .nav-mobile-menu {
+        display: flex;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        z-index: 30;
+    }
+    .nav-mobile-menu span {
+        height: 2px;
+        background-color:#871212;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transition: .25s ease-in-out;
+    }
+    .nav-mobile-menu span:nth-child(1) {
+        top: 1px;
+    }
+    .nav-mobile-menu span:nth-child(2) {
+        top: 9px;
+    }
+    .nav-mobile-menu span:nth-child(3) {
+        bottom: 1px;
+    }
+    .hidden-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .navigation {
+        width: 50%;
+        top: 0;
+        right: 0;
+        position: fixed;
+        background-color: white;
+        z-index: 10 !important;
+    }
+    .nav-mobile-menu.active-menu span:nth-child(1) {
+        top: 50%;
+        transform: rotate(225deg);
+    }
+    .nav-mobile-menu.active-menu span:nth-child(2) {
+        top: 50%;
+        transform: rotate(-225deg);
+    }
+    .nav-mobile-menu.active-menu span:nth-child(3) {
+        transform: scale(0);
+    }
+    .navigation.active-menu {
+        opacity: 1;
+        visibility: visible;
+        top: 80px;
+        transform: translateX(0);
+        z-index: 10;
+    }
+    .menu {
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 15px;
+    }
+    .menu-item {
+        display: flex;
+        padding: 8px;
+    }
+
+    .menu-link {
+        font-size: 16px;
+        padding: 3px;
+        text-transform: capitalize;
+        transition: all 0.5s ease-in-out;
+    }
+    .submenu-list {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 10px 20px;
+        background-color: #F9F9FF;
+        box-shadow: none;
+    }
+    .submenu-link {
+        font-size: 14px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+}
