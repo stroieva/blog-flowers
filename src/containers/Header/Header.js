@@ -92,7 +92,7 @@ const Header = ({
 
                                     <li className="menu-item categories-list-desktop">
                                         <Link
-                                            to="#"
+                                            to="#/"
                                             onClick={() => toggleSubmenu()}
                                             className="menu-link"
                                         >
