@@ -9,19 +9,19 @@ export const Social = () => {
     return (
         <div className="col-md-2">
             <div className="social-media">
-                <a href="#top">
+                <a href="#">
                     <InstagramIcon className="social" />
                 </a>
 
-                <a href="#top">
+                <a href="#">
                     <FacebookIcon className="social" />
                 </a>
 
-                <a href="#top">
+                <a href="#">
                     <TwitterIcon className="social" />
                 </a>
 
-                <a href="#top">
+                <a href="#">
                     <YouTubeIcon className="social" />
                 </a>
             </div>
