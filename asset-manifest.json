@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-blog-flowers/static/css/main.75139350.css",
-    "main.js": "/react-blog-flowers/static/js/main.f09f904e.js",
+    "main.js": "/react-blog-flowers/static/js/main.c42ce6d5.js",
     "static/media/slider-1.png": "/react-blog-flowers/static/media/slider-1.e757a5b79df990927569.png",
     "static/media/slider-4.jpg": "/react-blog-flowers/static/media/slider-4.43eb2d11eb2ba6ee9e95.jpg",
     "static/media/slider-3.jpg": "/react-blog-flowers/static/media/slider-3.8e745526e72019e2d1ca.jpg",
@@ -18,10 +18,10 @@
     "static/media/slick.woff": "/react-blog-flowers/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-blog-flowers/index.html",
     "main.75139350.css.map": "/react-blog-flowers/static/css/main.75139350.css.map",
-    "main.f09f904e.js.map": "/react-blog-flowers/static/js/main.f09f904e.js.map"
+    "main.c42ce6d5.js.map": "/react-blog-flowers/static/js/main.c42ce6d5.js.map"
   },
   "entrypoints": [
     "static/css/main.75139350.css",
-    "static/js/main.f09f904e.js"
+    "static/js/main.c42ce6d5.js"
   ]
 }
